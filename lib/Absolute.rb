@@ -1,7 +1,8 @@
 def absolute(siffra)
     if siffra < 0
-        return -siffra
+        output = -siffra
     else
-        return siffra
+        output = siffra
     end
+    return output
 end
