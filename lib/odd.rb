@@ -8,4 +8,3 @@ def isodd(siffra)
 
 end
 
-puts isodd(5)
