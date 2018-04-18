@@ -1,6 +1,6 @@
-def between(x, y, z)
+def between(siffra1, siffra2, siffra3)
     output = false
-    if x >= y && x <= z
+    if siffra1 >= siffra2 && siffra1 <= siffra3
         output = true
     end
     return output

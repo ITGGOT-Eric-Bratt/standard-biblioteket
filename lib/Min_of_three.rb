@@ -1,12 +1,12 @@
-def min_of_three(x, y, z)
+def min_of_three(siffra1, siffra2, siffra3)
     output = nil
-    if x < y
-        output = x
+    if siffra1 < siffra2
+        output = siffra1
     else
-        output = y
+        output = siffra2
     end
-    if z < output
-        output = z
+    if siffra3 < output
+        output = siffra3
     end
     return output
 

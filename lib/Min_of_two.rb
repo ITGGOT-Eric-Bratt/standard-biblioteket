@@ -1,8 +1,8 @@
-def min_of_two(x, y)
-    if x < y
-        output = x
+def min_of_two(siffra1, siffra2)
+    if siffra1 < siffra2
+        output = siffra1
     else 
-        output = y
+        output = siffra2
     end
     return output
 end
