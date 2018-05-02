@@ -1,14 +1,13 @@
-# Public: Duplicate some text an arbitrary number of times.
+# Public: Squares a number
 #
-# text  - The String to be duplicated.
-# count - The Integer number of times to duplicate the text.
+# siffra - The integer that is squared
 #
 # Examples
 #
-#   multiplex('Tom', 4)
-#   # => 'TomTomTomTom'
+#   square(4)
+#   # => 16
 #
-# Returns the duplicated String.
+# Returns the squared number
 def square(siffra)
     return siffra**2
 end
